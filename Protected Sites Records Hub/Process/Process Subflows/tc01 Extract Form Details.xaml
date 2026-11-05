@@ -173,7 +173,7 @@
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Extract Form Details - Invoke Workflow File (Process\Process Subflows\Extract Form Details.xaml)" sap:VirtualizedContainerService.HintSize="416,168.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Process\Process Subflows\Extract Form Details.xaml">
+      <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Extract Form Details - copy - Invoke Workflow File (Process\Process Subflows\Extract Form Details - copy.xaml)" sap:VirtualizedContainerService.HintSize="416,168.4" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Process\Process Subflows\Extract Form Details.xaml">
         <ui:InvokeWorkflowFile.Arguments>
           <OutArgument x:TypeArguments="x:String" x:Key="out_strFullName" />
           <OutArgument x:TypeArguments="x:String" x:Key="out_strPhone" />
