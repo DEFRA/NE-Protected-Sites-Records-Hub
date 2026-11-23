@@ -276,7 +276,7 @@
         <OutArgument x:TypeArguments="x:String">[out_strCaseworkFolderName]</OutArgument>
       </Assign.To>
       <Assign.Value>
-        <InArgument x:TypeArguments="x:String">["ID "+g_jobCWTReceipt("CWT_case_ID").ToString+" - "+g_jobCWTReceipt("NE_Reference_Number").ToString+" - "+in_strDefraFormsID+" - "+Regex.Replace(in_strFolderDescription.Trim,"[""*:&lt;&gt;?/\\|]","_")]</InArgument>
+        <InArgument x:TypeArguments="x:String">[g_jobCWTReceipt("NE_Reference_Number").ToString+" - "+"ID "+g_jobCWTReceipt("CWT_case_ID").ToString+" - "+in_strDefraFormsID+" - "+Regex.Replace(in_strFolderDescription.Trim,"[""*:&lt;&gt;?/\\|]","_")]</InArgument>
       </Assign.Value>
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
